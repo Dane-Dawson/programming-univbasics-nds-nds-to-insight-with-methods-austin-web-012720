@@ -12,6 +12,7 @@ while inner_index < inner_limit do
   director_total += directors_database[row_index][:movies][innder_index][:worldwide_gross]
   inner_index += 1
 end
+director_total
 end
 
 # Write a method that, given an NDS creates a new Hash
