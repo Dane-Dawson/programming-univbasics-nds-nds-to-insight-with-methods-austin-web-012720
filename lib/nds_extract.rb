@@ -12,6 +12,7 @@ while inner_index < inner_limit do
   director_total += directors_database[row_index][:movies][innder_index][:worldwide_gross]
   inner_index += 1
 end
+end
 
 # Write a method that, given an NDS creates a new Hash
 # The return value should be like:
@@ -24,7 +25,7 @@ def directors_totals(nds)
   while row_index < nds.length do
     result[nds[row_index]] = gross_for_director
     row_index += 1 
-
+  end
   
   result
   
