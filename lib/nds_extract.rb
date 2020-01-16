@@ -9,7 +9,7 @@ director_total = 0
 inner_limit = directors_database[row_index][:movies].count
 inner_index = 0 
 while inner_index < inner_limit do
-  director_total += directors_database[row_index][:movies][innder_index][:worldwide_gross]
+  director_total += directors_database[row_index][:movies][inner_index][:worldwide_gross]
   inner_index += 1
 end
 director_total
